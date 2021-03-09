@@ -30,7 +30,7 @@ public class Test_NetlibCaseWithGurobiInstantCloud extends NetlibCase {
 
     @BeforeAll
     public static void configure() {
-//        ExpressionsBasedModel.addPreferredSolver(SolverGurobi.newInstantCloudIntegration(InstantCloudAPIConfig.ACCESSKEY, InstantCloudAPIConfig.SECRET));
+       ExpressionsBasedModel.addPreferredSolver(SolverGurobi.newInstantCloudIntegration(InstantCloudAPIConfig.ACCESSKEY, InstantCloudAPIConfig.SECRET));
     }
 
 }

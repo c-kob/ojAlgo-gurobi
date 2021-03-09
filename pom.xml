@@ -68,9 +68,11 @@
                         <environmentVariables>
                             <LD_LIBRARY_PATH>${path.native.gurobi}</LD_LIBRARY_PATH>
                         </environmentVariables>
+                        <excludedGroups>slow, unstable</excludedGroups>
                     </configuration>
                 </plugin>
             </plugins>
         </pluginManagement>
+
     </build>
 </project>
